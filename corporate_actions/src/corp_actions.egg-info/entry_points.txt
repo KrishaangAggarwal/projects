@@ -1,0 +1,2 @@
+[console_scripts]
+corp-actions = corp_actions.cli:cli

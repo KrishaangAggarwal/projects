@@ -1,0 +1,11 @@
+yfinance>=0.2.36
+edgartools>=5.0
+httpx>=0.27
+click>=8.0
+
+[dev]
+pytest>=8.0
+build>=1.0
+
+[llm]
+groq>=0.9
