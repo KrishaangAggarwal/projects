@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.cell-added {
+    @apply bg-green-100 border-green-400;
+}
+
+.cell-removed {
+    @apply bg-red-100 border-red-400;
+}
+
+.cell-changed {
+    @apply bg-yellow-100 border-yellow-400;
+}
